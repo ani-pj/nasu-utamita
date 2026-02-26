@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>歌ってみたリンク集</title>
+<title>照瑚なすch -TEREKO NASU- 歌枠リンク集</title>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -358,7 +358,8 @@
 </div>
 
 <header>
-  <h1>🎤 歌ってみたリンク集</h1>
+  <h4>🗻🦅🍆🎶あなたの好きな曲もきっとある🗻🦅🍆🎶</h4>
+  <h1>照瑚なすさん 歌ってみたリンク集</h1>
   <div class="search-wrap">
     <input type="search" id="searchInput" placeholder="曲名・動画タイトルで検索..." autocomplete="off">
     <span class="search-icon">🔍</span>
@@ -368,18 +369,18 @@
 <div class="vote-banner">
   <a href="https://ec.v-tamp.com/events/utawaku_gp_3/rank_bord/tereko_nasu" target="_blank" rel="noopener noreferrer">
     <span class="vote-icon">🗳️</span>
-    <span>照瑚なすさん、第3回歌枠グランプリに参加中！1日1票投票してなすさんを応援しよう！！</span>
+    <span>照瑚なすさん、第3回歌枠グランプリに参加中！このリンクから1日1票投票してなすさんを応援しよう！！</span>
   </a>
 </div>
 
 <div class="tabs-container" id="tabsContainer">
   <button class="tab active" data-tab="mv">■ Music Video</button>
-  <button class="tab" data-tab="live">■ 歌ってみた枠</button>
-  <button class="tab" data-tab="pending">■ 歌ってみた枠（タイムスタンプ準備中）</button>
+  <button class="tab" data-tab="live">■ 歌枠</button>
+  <button class="tab" data-tab="pending">■ 歌枠（タイムスタンプ準備中）</button>
 </div>
 
 <div class="legend">
-  <span class="legend-item"><span class="legend-dot normal"></span>通常</span>
+  <span class="legend-item"><span class="legend-dot normal"></span>地声</span>
   <span class="legend-item"><span class="legend-dot vc"></span>ボイチェン</span>
 </div>
 
@@ -391,7 +392,7 @@
 
 <footer>
   <a href="https://www.youtube.com/@tereko-nasu" target="_blank" rel="noopener noreferrer">
-    <span class="footer-name">照瑚なすch -TEREKO NASU-</span>
+    <span class="footer-name">このページのコンテンツは全て、照瑚なすch -TEREKO NASU- さんのリンクになっています</span>
     <span>https://www.youtube.com/@tereko-nasu</span>
   </a>
 </footer>
@@ -625,8 +626,8 @@ function render() {
     else                              items = pendingItems;
     const names = {
       mv:      '■ Music Video',
-      live:    '■ 歌ってみた枠',
-      pending: '■ 歌ってみた枠（タイムスタンプ準備中）',
+      live:    '■ 歌枠',
+      pending: '■ 歌枠（タイムスタンプ準備中）',
     };
     label.textContent = `${names[activeTab]} — ${items.length}件`;
   }
